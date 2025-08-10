@@ -258,3 +258,4 @@ D:\Senai_Areias\curso_backend_EAD\atividade_desenvovimento_API\Exo.WebApi\obj\De
 D:\Senai_Areias\curso_backend_EAD\atividade_desenvovimento_API\Exo.WebApi\obj\Debug\net9.0\Exo.WebApi.pdb
 D:\Senai_Areias\curso_backend_EAD\atividade_desenvovimento_API\Exo.WebApi\obj\Debug\net9.0\Exo.WebApi.genruntimeconfig.cache
 D:\Senai_Areias\curso_backend_EAD\atividade_desenvovimento_API\Exo.WebApi\obj\Debug\net9.0\ref\Exo.WebApi.dll
+D:\Senai_Areias\curso_backend_EAD\atividade_desenvovimento_API\Exo.WebApi\obj\Debug\net9.0\Exo.WebApi.sourcelink.json
