@@ -50,7 +50,7 @@ namespace Exo.WebApi.Controllers
       }
       catch (Exception ex)
       {
-        return BadRequest();
+        return BadRequest(ex.Message);
       }
     }
   }
