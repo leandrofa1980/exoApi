@@ -7,13 +7,21 @@ builder.Services.AddScoped<ExoContext, ExoContext>();
 builder.Services.AddControllers();
 builder.Services.AddTransient<ProjetoRepository, ProjetoRepository>();
 
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
 var app = builder.Build();
 
 app.UseRouting();
 
-app.UseEndpoints(endpoints =>
+// Adicione estas linhas para habilitar o Swagger em desenvolvimento
+if (app.Environment.IsDevelopment())
 {
-    endpoints.MapControllers();
-});
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
+
+
+app.MapControllers();
 
 app.Run();
